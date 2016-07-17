@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#自动更新hosts文件，运行时需要sudo提升权限
 dir="$( cd "$( dirname "$0" )" && pwd )"
 cd $dir
 rm hosts.bak
