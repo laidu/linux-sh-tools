@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#本脚本接收jdk路径参数，用来配置jdk环境变量
 sudo echo "export JAVA_HOME=$1
 export JRE_HOME=\${JAVA_HOME}/jre
 export CLASSPATH=.:\${JAVA_HOME}/lib:\${JRE_HOME}/lib
